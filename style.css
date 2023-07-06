@@ -869,6 +869,13 @@ about-content h3 {
 }
 @media (max-width:550px) {
 
+    .socalmedia a {
+        display: inline-flex;
+        justify-content: center;
+        width: 46px;
+        height: 44px;
+    }
+
     .homeimg img {
         max-width: 450px;
         margin-right: 0px;
@@ -904,7 +911,7 @@ about-content h3 {
         padding: 85px 0px 13px 0px;
     }
 
-    .homecontent {
+    /* .homecontent {
         font-size: 21px;
         margin-top: 49px;
         display: flex;
@@ -916,10 +923,10 @@ about-content h3 {
     p {
         font-size: 15px;
         margin-left: 14px;
-    }
+    } */
 
     .homecontent h2 {
-        font-size: 12px;
+        font-size: 17px;
     }
     
 }
