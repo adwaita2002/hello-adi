@@ -825,7 +825,7 @@ about-content h3 {
 
     .adi2{
         position: absolute;
-         top: 197vh;
+         top: 191vh;
         color: #ff1261;
     }
 
@@ -869,6 +869,13 @@ about-content h3 {
 }
 @media (max-width:550px) {
 
+    .homeimg img {
+        max-width: 450px;
+        margin-right: 0px;
+        opacity: 0px;
+        width: 161px;
+    }
+
     .portfolio {
         width: 100%;
         height: 100vh;
@@ -876,7 +883,7 @@ about-content h3 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 331px;
+        margin-top: 507px;
     }
 
     .portfolio-container {
