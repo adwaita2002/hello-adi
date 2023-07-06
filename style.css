@@ -917,6 +917,10 @@ about-content h3 {
         font-size: 15px;
         margin-left: 14px;
     }
+
+    .homecontent h2 {
+        font-size: 19px;
+    }
     
 }
 
