@@ -166,6 +166,7 @@ p {
     animation-delay: 2s;
     margin: 7px 0px;
     font-size: 17px;
+    transition: .4s;
 
 
 
@@ -253,7 +254,7 @@ p {
 
 .about {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     gap: 2rem;
 
@@ -373,16 +374,218 @@ about-content h3 {
 
 
 }
+.skillss{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
 
 .heading2 {
     display: flex;
     color: blue;
     justify-content: center;
-    font-size: 70px;
-    text-decoration: underline;
-    margin: 80px 0px 35px 0px;
+    align-items: center;
+    font-size: 30px;
+    flex-direction: column;
+    
+    /* margin: 50px 0px 35px 0px; */
 }
 
+.skill-main{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    
+  
+   
+    
+}
+.skill-left{
+    width: 400px;
+}
+.skill-main h3{
+   margin-bottom: 1rem;
+   font-size: 40px;
+   text-align: center;
+}
+.skill-bar{
+   margin-bottom: 10px;
+
+}
+.skill-left .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.skill-right .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.skill-left .skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+.skill-right .skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background:rgb(11, 238, 238);
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px aquamarine;
+
+}
+.skill-bar .bar .html{
+    width: 72%;
+    animation: html 2s;
+}
+.skill-bar .bar .css{
+    width: 82%;
+    animation: css 3s;
+}
+.skill-bar .bar .javascript{
+    width: 80%;
+    animation: javascript 4s;
+}
+.skill-bar .bar .react{
+    width: 75%;
+    animation: react 3s;
+}
+.skill-bar .bar .dsa{
+    width: 85%;
+    animation: dsa 5s;
+}
+.skill-bar .bar .bs{
+    width: 60%;
+    animation: bs 6s;
+}
+
+.skill-bar .bar .html{
+    width: 60%;
+    animation: bs 6s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 72%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 82%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes dsa{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes bs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+ .info1 .btn4{
+    display: inline-flex;
+    font-size: 9px;
+    padding: 12px 28px;
+    background-color: aqua;
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+    text-decoration: none;
+    font-weight: 500px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    opacity: 0px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    margin: 27px 0px;
+}
+
+/* .professional{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.box{
+    margin: 10px 0px ;
+    flex: 1 1 15rem;
+    position: relative;
+}
+.circle{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.box .text{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+.box .text big{
+    font: 400;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box .text small{
+    display: block;
+    font-weight: 600;
+} */
 .program {
     border: 2px solid aqua;
     display: flex;
@@ -794,6 +997,8 @@ about-content h3 {
         font-size: 17px;
     }
 
+    
+
 
     
     
@@ -825,8 +1030,9 @@ about-content h3 {
 
     .adi2{
         position: absolute;
-         top: 191vh;
+         top: 193vh;
         color: #ff1261;
+        font-size: 30px;
     }
 
     .adii{
@@ -931,7 +1137,7 @@ about-content h3 {
     
 }
 
-@media (max-width:768){
+@media (max-width:768px){
      
     .portfolio h2{
         margin-bottom: 3rem;
@@ -941,11 +1147,42 @@ about-content h3 {
     }
 }
 
-@media (max-width:412) {
+@media (max-width:412px) {
     .portfolio.protfolio-heading {
         margin-bottom: 31px;
         margin-top: -167px;
     }
+    .footer-text p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .footer-main{
+        margin-top: 50px;
+    }
+    
+}
+
+@media (max-width:1050px) {
+
+    .skill-main{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+    .skill-right{
+        display: none;
+    }
+    .skillss{
+        margin: 0px 30px;
+    }
+    .skill-left{
+        margin: 0px 30px;
+        width: 300px;
+    }
+   
     
 }
 
