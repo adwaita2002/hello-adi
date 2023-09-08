@@ -805,11 +805,12 @@ about-content h3 {
 }
 .contact .protfolio-heading{
     margin-bottom: 37px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 23px;
-    padding: 100px 0px 0px;
+   
     color: hotpink;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 42px;
@@ -1008,7 +1009,7 @@ about-content h3 {
 
     .about-img img {
         max-width: 62vw;
-        margin-bottom: 62px;
+        margin-bottom: 20px;
         width: 332px;
     }
 
@@ -1040,7 +1041,7 @@ about-content h3 {
     
     flex-wrap: wrap;
     font-size: 31px;
-    padding-top: 39px;
+    padding-top: 19px;
     margin-top: 46px;
     }
 
@@ -1070,7 +1071,7 @@ about-content h3 {
         align-items: center;
         gap: 20px;
         padding: 0px 99px;
-        padding-top: 67px;
+        padding-top: 45px;
 }
 }
 @media (max-width:550px) {
@@ -1194,7 +1195,9 @@ about-content h3 {
     .skill-section{
         margin: -158px 0px 0px 0px;
     }
-   
+    .skill-section .adii{
+            font-size: 40px;
+    }
     
 }
 
