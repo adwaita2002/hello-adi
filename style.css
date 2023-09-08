@@ -1177,10 +1177,22 @@ about-content h3 {
     }
     .skillss{
         margin: 0px 30px;
+        margin: -113px 1px -31px 0px;
+    
     }
     .skill-left{
         margin: 0px 30px;
         width: 300px;
+    }
+    .heading2 h2{
+        font-size: 30px;
+    }
+    .skill-left h3{
+        font-size: 30px;
+        margin-top: 16px;
+    }
+    .skill-section{
+        margin: -158px 0px 0px 0px;
     }
    
     
